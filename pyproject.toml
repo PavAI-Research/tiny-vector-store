@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tiny-vstore"
+version = "0.1.0"
+description = "implementation of vector store build from scratch with minimal dependencies for embedding data and perform similarity search."
+authors = ["minyang chen <mychen76@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tinyvectorstore"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+joblib = "^1.3.2"
+cleantext = "^1.1.4"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
