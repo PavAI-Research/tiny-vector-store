@@ -59,5 +59,9 @@ or export requirements
 
 poetry export --without-hashes --format=requirements.txt > requirements.txt
 
+### TODOs
 
+> enhance Dence retrieval support
+> add Sparse retrieval support 
+> add Multi-vector retrieval support 
 
